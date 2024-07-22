@@ -9,8 +9,8 @@ import java.net.URL;
 
 public class ConversaoFinanceiraImpl implements ConversaoFinanceira {
     private int valorConversao;
-    private static final String API_KEY = "e1156c211a095ea542c841b8";
-    private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/e1156c211a095ea542c841b8/latest/";
+    private static final String API_KEY = "SUA API KEY AQUI";
+    private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/SUAAPIKEYAQUI/latest/";
 
     public ConversaoFinanceiraImpl(int valor) {
         this.valorConversao = valor;
